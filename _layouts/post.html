@@ -1,15 +1,27 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+<div id="all">
+  <div class="container-fluid">
+    <div class="row row-offcanvas row-offcanvas-left"> 
+      {% include sidebar.html %}
+
+      <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+        <div class="small-navbar visible-xs">
+          <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+          <h1 class="small-navbar-heading"> <a href="index.html">Cata Margozzini</a></h1>
+        </div>
+
+            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+
+          <div class="post-content" itemprop="articleBody">
+            {{ content }}
+          </div>
+
+      </div>
+
+    </div>
   </div>
-
-</article>
+</div>

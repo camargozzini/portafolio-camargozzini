@@ -1,0 +1,23 @@
+---
+layout: post
+title:  Indice de Transparencia Legislativa
+date:   2016-01-01
+categories: [UI, CSS, HTML, D3.js]
+image: indice.png
+description: Sitio Web que presenta los resultados del Índice de Transparencia de los congresos latinoamericanos, hecho por la Red Latinoamericana por la Transparencia Legislativa.
+permalink: /:title.html
+---
+<a href="http://indice.transparencialegislativa.org/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio Web</a><a href="https://github.com/ciudadanointeligente/indice2016"><i class="fa fa-github" aria-hidden="true"></i> Código en Github</a>
+
+Sitio Web que presenta los resultados del Índice de Transparencia de los congresos latinoamericanos, hecho por la Red Latinoamericana por la Transparencia Legislativa.
+
+Es un sitio web conformado principalmente por gráficos que presentan los resultados de manera muy simple y visual. Parte del objetivo era que los gráficos fueran dinámicos ya que es un estudio que se realiza cada 2 años, entonces la idea es que para la próxima versión sólo se ingresan los nuevos valores y queda lista.
+
+<h4>Etapas del proyecto de las que fui responsable:</h4>
+<ul>
+  <li>Diseño de Wireframes</li>
+  <li>Diseño de Mockups</li>
+  <li>Implementación de todo el sitio</li>
+  <li>Diseño de material gráfico para la difusión</li>
+</ul>
+
