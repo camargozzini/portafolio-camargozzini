@@ -3,7 +3,7 @@ layout: post
 title:  Poplus
 date:   2016-01-01
 categories: [UI, CSS, HTML]
-image: fci.png
+image: poplus.png
 description: Plataforma cuyo fin es compartir código abierto, modular y reutilizable para ser usado con fines cívicos y democráticos en todo el mundo.
 permalink: /:title.html
 ---

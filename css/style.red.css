@@ -335,6 +335,7 @@ SIDEBAR + RIGHT COLUMN
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin-bottom: 0;
 }
 .sidebar-heading a {
   color: #000;
@@ -853,13 +854,7 @@ a:active {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.box-masonry h4 {
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
+
 .box-masonry h4 a {
   color: #000;
   border-bottom: solid 1px transparent;
@@ -1604,7 +1599,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   line-height: 1.55;
-  color: #000000;
   background-color: #f4f4f4;
 }
 a {
@@ -1984,11 +1978,7 @@ h3,
   font-size: 32px;
   font-weight: 700;
 }
-h4,
-.h4 {
-  font-size: 24px;
-  font-weight: 700;
-}
+
 h5,
 .h5 {
   font-size: 16px;
@@ -1999,8 +1989,7 @@ h6,
   font-size: 14px;
   font-weight: 700;
 }
-h1,
-.h1,
+
 h2,
 .h2,
 h3,

@@ -4,7 +4,7 @@ title:  Ciudadano Inteligente
 date:   2016-01-01
 categories: [UI, CSS, HTML, Javascript]
 image: fci.png
-description: Sitio Web de la Fundación Ciudadano Inteligente
+description: Landing page de la Fundación Ciudadano Inteligente
 permalink: /:title.html
 ---
 <a href="http://indice.transparencialegislativa.org/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio Web</a><a href="https://github.com/ciudadanointeligente/indice2016"><i class="fa fa-github" aria-hidden="true"></i> Código en Github</a>

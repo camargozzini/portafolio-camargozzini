@@ -19,7 +19,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $grey;
     }
 }
 
@@ -58,7 +58,7 @@ header img {
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $grey;
         border-radius: 5px;
         text-align: right;
 
@@ -76,7 +76,7 @@ header img {
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $grey;
                 }
             }
         }
@@ -139,7 +139,7 @@ footer img {
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -210,7 +210,7 @@ footer img {
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey;
 }
 
 .post-link {
@@ -229,8 +229,8 @@ footer img {
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
+    font-weight: 300;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -249,18 +249,7 @@ footer img {
     }
 
     h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+        font-size: 24px;
+        font-weight: 300;
     }
 }
