@@ -7,12 +7,12 @@
 
 # Site settings
 title: Cata Margozzini
-email: info@ciudadanointeligente.org
-description: "Creo que la información bien diseñada en conjunto con las tecnologías de información son la forma de democratizar los contenidos, empoderar la ciudadanía y cambiar el mundo. Y que suerte la mía que son justo las dos cosas que me apasionan."
-baseurl: "http://semaforoelectoral.cl/" # the subpath of your site, e.g. /blog
-url: "http://semaforoelectoral.cl" # the base hostname & protocol for your site
-twitter_username: ciudadanoi
-github_username:  ciudadanointeligente
+email: camargozzini@gmail.com
+description: "Creo que el potencial democratizador de información de la tecnología e Internet es enorme, por eso dedico mi trabajo a intenar que la comunicación persona-computador sea lo más fluida posible."
+baseurl: "http://camargozzini.com/" # the subpath of your site, e.g. /blog
+url: "http://camargozzini.com/" # the base hostname & protocol for your site
+twitter_username: camargozzini
+github_username:  camargozzini
 
 # Build settings
 markdown: kramdown
