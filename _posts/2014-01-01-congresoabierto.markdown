@@ -23,6 +23,12 @@ permalink: /:title.html
 
 Congreso Abierto es una plataforma de Ciudadano Inteligente que transparenta el trabajo legislativo en Chile: perfil de congresistas, proyectos de ley con las etapas que han pasado y su estado actual, votaciones y canal de comunicación con los parlamentarios.
 
+El diseño de este sitio fue un desafío muy interesante ya que el funcionamiento del congreso en general para los ciudadanos es un lugar oscuro y lejano, que no saben que pasa ahí ni sienten que tienen alguna injerencia. 
+
+Como sabíamos que la mayoría de los ciudadanos no tienen el interés de andar revisando los proyectos de ley, el sitio fue principalmente diseñado para periodistas y sociedad civil. Consideramos que ellos serían muy buenos intermediarios entre los temas legislativos y los ciudadanos. Nosotros les entregaríamos la información muy fácil de encontrar y digerir, y ellos la utilizarían para generar nuevos contenidos que llegaran al resto de los ciudadanos. 
+
+Para que los proyectos de ley se pudiesen ubicar fácilmente implementamos un sistema de tags, ya que los nombres de los proyectos muchas veces no calzaba con el nombre de fantasía con que se trataba al proyecto comúnmente y en los medios. Como no era económicamente sustentable tener a un equipo etiquetando 
+
 <img src="{{ site.baseurl }}img/content/ca01.png" class="img-responsive">
 <img src="{{ site.baseurl }}img/content/ca02.png" class="img-responsive">
 <img src="{{ site.baseurl }}img/content/ca03.png" class="img-responsive">
