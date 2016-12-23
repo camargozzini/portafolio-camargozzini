@@ -390,6 +390,8 @@ SIDEBAR + RIGHT COLUMN
 .content-column.white-background {
   background: #fff;
   min-height: 100vh;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .grid {
   padding-top: 5px;

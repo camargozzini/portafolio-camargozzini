@@ -2,7 +2,7 @@
 layout: post
 title:  Del Dicho al Hecho
 date:   2015-01-01
-categories: [UX, CSS, HTML, D3]
+categories: [UI, CSS, HTML, D3]
 image: ddah.png
 description: Del Dicho al Hecho es la plataforma que vizualiza el estudio de Ciudadano Inteligente que realiza un análisis detallado de las promesas establecidas por el Gobierno y una revisión del estado de cumplimiento legislativo y administrativo de éstas.
 permalink: /:title.html
