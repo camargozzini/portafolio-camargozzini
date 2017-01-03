@@ -23,6 +23,12 @@ permalink: /:title.html
   <li>Diseño de material gráfico para la difusión</li>
 </ul>
 
+<div id="main-slider">
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2016/01.png" class="img-responsive"></div>
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2016/03.png" class="img-responsive"></div>
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2016/02.png" class="img-responsive"></div>
+</div>
+
 El primer Vota Inteligente lo creamos el año 2009 para las elecciones presidenciales y ha mantenido su objetivo central que es el voto informado, pero esta versión agregó una nueva funcionalidad que tiene que ver con una nueva propuesta para la forma en que los ciudadanos participan, donde son ellos los que proponen proyectos que los candidatos pueden comprometerse a realizar al ser escogidos.
 
 Esto fue un gran desafío al diseñar la experiencia de usuario ya que el sitio tiene muchas (y muy diferentes) fucionalidades, y esta última de las propuestas era en especial compleja por todo el proceso de creación de la propuesta, para que fuera claro y a la vez no requisiera tanta instrucción ni fuera tan largo como para auyentar al usuario.
