@@ -1,0 +1,20 @@
+---
+layout: post
+permalink: /:title.html
+title:  Let's Talk
+date:   2015-01-01
+categories: [Branding]
+image: letstalk.png
+description: Diseño de la marca Let's Talk, que es una aplicación de mensajería instantánea para comunicar empresas con sus clientes.
+---
+<p>
+<a href="http://camargozzini.github.io/06-12-14/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio web | </a><a href="https://github.com/camargozzini/06-12-14" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Código en Github</a>
+</p>
+
+<h3>{{ page.description }}</h3>
+
+<div class="row">
+<div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/letstalk/01.png" class="img-responsive"></div>
+<div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/letstalk/02.png" class="img-responsive"><p class="text-right">Tarjeta de presentación</p></div>
+<div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/letstalk/03.png" class="img-responsive"><p class="text-right">Versión horizontal del logo.</p></div>
+</div>
