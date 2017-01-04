@@ -13,7 +13,7 @@ github: https://github.com/ciudadanointeligente/ddah-promises
 Del Dicho al Hecho es la plataforma que vizualiza el estudio de Ciudadano Inteligente que realiza un análisis detallado de las promesas establecidas por el Gobierno y una revisión del estado de cumplimiento legislativo y administrativo de éstas. Conscientes de las dificultades que tenemos los ciudadanos de ejercer nuestro derecho a exigir rendición de cuentas, nuestro estudio pretende empoderar a las personas y contribuir a la reducción de las brechas de información que hoy dificultan una fiscalización efectiva de nuestros representantes.. 11 versiones
 
 <h3>Etapas del proyecto de las que fui responsable:</h3>
-<ul>
+<ul class="list-unstyled linea">
   <li>Diseño de Wireframes</li>
   <li>Diseño de Mockups</li>
   <li>Implementación del Frontend</li>
