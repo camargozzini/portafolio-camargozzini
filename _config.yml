@@ -18,4 +18,4 @@ github_username:  camargozzini
 markdown: kramdown
 
 prose:
-	ignore: ['about.html']
+  ignore: ['about.html']
