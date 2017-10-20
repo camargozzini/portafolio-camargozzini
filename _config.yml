@@ -16,3 +16,6 @@ github_username:  camargozzini
 
 # Build settings
 markdown: kramdown
+
+prose:
+	ignore: ['about.html']
