@@ -20,8 +20,9 @@ markdown: kramdown
 prose:
   ignore: ['favicon.ico','about.html','js']
   siteurl: 'http://camargozzini.com'
-  _posts:
-    - name: description
-      field:
-        element: 'textarea'
-        label: 'descripcion'
+  metadata:
+    _posts:
+      - name: description
+        field:
+          element: 'textarea'
+          label: 'descripcion'
