@@ -1,11 +1,17 @@
 ---
 layout: post
-title:  Observatorio Anticorrupción
-date:   2015-06-30
-categories: [UI]
+title: Observatorio Anticorrupción
+date: {}
+categories:
+  - UI
 image: observatorio.png
-description: Proyecto colaborativo entre las organizaciones Espacio Público y Ciudadano Inteligente. Sigue el debate y el avance de las medidas propuestas por el Consejo Asesor Presidencial convocado por la presidenta Bachelet el 2015, para lograr una mayor probidad y transparencia en Chile.
-permalink: /:title.html
+description: >-
+  Proyecto colaborativo entre las organizaciones Espacio Público y Ciudadano
+  Inteligente. Sigue el debate y el avance de las medidas propuestas por el
+  Consejo Asesor Presidencial convocado por la presidenta Bachelet el 2015, para
+  lograr una mayor probidad y transparencia en Chile.
+permalink: '/:title.html'
+published: true
 ---
 
 <p>
@@ -20,6 +26,9 @@ permalink: /:title.html
   <li>Diseño de Wireframes</li>
   <li>Diseño de Mockups</li>
 </ul>
+
+1. sdfghjiop
+2. dfghjkl;
 
 <div id="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/observatorio/01.png" class="img-responsive"></div>
