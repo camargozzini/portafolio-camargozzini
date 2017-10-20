@@ -18,5 +18,5 @@ github_username:  camargozzini
 markdown: kramdown
 
 prose:
-  ignore: ['favicon.ico','about.html','js']
-  siteurl: 'http://camargozzini.com'
+  - ignore: ['favicon.ico','about.html','js']
+  - siteurl: 'http://camargozzini.com'
