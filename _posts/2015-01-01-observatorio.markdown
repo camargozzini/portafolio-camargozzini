@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Observatorio Anticorrupción
-date: {}
+date: 2015-01-01T00:00:00.000Z
 categories:
   - UI
 image: observatorio.png
