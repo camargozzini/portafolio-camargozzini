@@ -19,3 +19,4 @@ markdown: kramdown
 
 prose:
   ignore: ['favicon.ico','about.html','js']
+  siteurl: 'http://camargozzini.com'
