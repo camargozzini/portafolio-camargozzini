@@ -1,0 +1,32 @@
+---
+layout: post
+title:  Del Dicho al Hecho
+date:   2015-01-01
+categories: [UI, CSS, HTML, D3]
+image: ddah.png
+description: Del Dicho al Hecho es la plataforma que vizualiza el estudio de Ciudadano Inteligente que realiza un análisis detallado de las promesas establecidas por el Gobierno y una revisión del estado de cumplimiento legislativo y administrativo de éstas.
+permalink: /:title.html
+github: https://github.com/ciudadanointeligente/ddah-promises
+---
+<a href="http://deldichoalhecho.cl/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio Web | </a><a href="https://github.com/ciudadanointeligente/ddah-promises"><i class="fa fa-github" aria-hidden="true"></i> Código en Github</a>
+
+<h3>{{ page.description }}</h3>
+
+<h4>Etapas del proyecto de las que fui responsable:</h4>
+<ul class="list-unstyled linea">
+  <li>Diseño de Wireframes</li>
+  <li>Diseño de Mockups</li>
+  <li>Implementación del Frontend</li>
+  <li>Diseño de material gráfico para la difusión</li>
+</ul>
+
+<img alt="" src="{{ site.baseurl }}img/content/ddah/01.png" class="img-responsive">
+
+Era requisito para este proyecto ser muy simple de reutilizar para diferentes estudios. Tiene una estructura muy simple de manera que en las diferentes instalaciones lo único que es necesario cambiar es el header y los datos.
+
+<h4>Material gráfico</h4>
+<div class="row">
+<div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/ddah/d01.png" class=""></div>
+<div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/ddah/dif02.png" class="img-responsive"></div>
+<div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/ddah/d03.png" class="img-responsive"></div>
+</div>

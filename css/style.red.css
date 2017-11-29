@@ -1,10 +1,10 @@
-/* 
-========================================= 
-========================================= 
+/*
+=========================================
+=========================================
 
-Startup Template By Bootstrapious.com      
+Startup Template By Bootstrapious.com
 
-========================================= 
+=========================================
 ========================================= */
 /* variant 4 - red */
 /*
@@ -355,8 +355,7 @@ SIDEBAR + RIGHT COLUMN
 }
 .sidebar-menu {
   list-style-type: none;
-  padding-left: 20px;
-  margin-bottom: 40px;
+  margin: 3vw;
 }
 .sidebar-menu li {
   margin-bottom: 5px;

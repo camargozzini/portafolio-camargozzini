@@ -4,12 +4,12 @@ title:  Vota Inteligente 2016
 date:   2016-06-30
 categories: [UX, UI, HCD, CSS, HTML, Javascript]
 image: vota01.png
-description: VotaInteligente is a Ciudadano Inteligente platform whose objective is the active and informed participation of citizens in elections.
+description: VotaInteligente es una plataforma de Ciudadano Inteligente cuyo objetivo es la participación activa e informada de los ciudadanos en las elecciones.
 permalink: /:title.html
 ---
 <p>
-<a href="http://votainteligente.cl/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Website | </a>
-<a href="https://github.com/ciudadanointeligente/votainteligente-portal-electoral" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github | </a>
+<a href="http://votainteligente.cl/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio web | </a>
+<a href="https://github.com/ciudadanointeligente/votainteligente-portal-electoral" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Código en Github | </a>
 <a href="https://marvelapp.com/j72287" target="_blank"><i class="fa fa-file-image-o" aria-hidden="true"></i> Prototipo en Marvel</a>
 </p>
 
@@ -32,3 +32,5 @@ permalink: /:title.html
 El primer Vota Inteligente lo creamos el año 2009 para las elecciones presidenciales y ha mantenido su objetivo central que es el voto informado, pero esta versión agregó una nueva funcionalidad que tiene que ver con una nueva propuesta para la forma en que los ciudadanos participan, donde son ellos los que proponen proyectos que los candidatos pueden comprometerse a realizar al ser escogidos.
 
 Esto fue un gran desafío al diseñar la experiencia de usuario ya que el sitio tiene muchas (y muy diferentes) fucionalidades, y esta última de las propuestas era en especial compleja por todo el proceso de creación de la propuesta, para que fuera claro y a la vez no requisiera tanta instrucción ni fuera tan largo como para auyentar al usuario.
+
+
