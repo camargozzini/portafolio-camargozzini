@@ -2,7 +2,7 @@
 layout: post
 title:  Abre
 date:   2017-01-01
-categories: [UX, UI, HCD, CSS, HTML]
+categories: [UX, UI, HCD, CSS, HTML, Branding]
 image: abre01.png
 description: Abre (Open) is a mixture of digital and methodological tools that bring the work of local governments closer to neighbors, enhancing the collective construction of neighborhoods and communities.
 permalink: /:title.html

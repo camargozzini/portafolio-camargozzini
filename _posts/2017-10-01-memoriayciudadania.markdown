@@ -2,7 +2,7 @@
 layout: post
 title:  Memoria y Ciudadanía
 date:   2017-11-01
-categories: [UI, CSS, HTML]
+categories: [UI, CSS, HTML, Branding]
 image: myc01.png
 description: This website is the landing for the Memoria y Ciudadanía (Memory and Citizenship) project of the Peruvian organization Japiqay.
 permalink: /:title.html

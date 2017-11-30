@@ -2,9 +2,9 @@
 layout: post
 title:  Abre (Landing)
 date:   2017-01-01
-categories: [UI, CSS, HTML]
+categories: [UI, CSS, HTML, Branding]
 image: abre02.png
-description: Landing for the Abre project. Abre is a mixture of digital and methodological tools that bring the work of local governments closer to neighbors, enhancing the collective construction of neighborhoods and communities.
+description: Landing page for the Abre project.
 permalink: /:title.html
 ---
 <p>
