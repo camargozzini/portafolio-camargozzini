@@ -21,7 +21,7 @@ permalink: /:title.html
   <li>Diseño de Mockups</li>
 </ul>
 
-<div id="main-slider">
+<div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/observatorio/01.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/observatorio/02.png" class="img-responsive"></div>
 </div>

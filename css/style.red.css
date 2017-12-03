@@ -351,37 +351,20 @@ SIDEBAR + RIGHT COLUMN
 }
 .sidebar-p {
   color: #999999;
-  font-size: 14px;
 }
 .sidebar-menu {
   list-style-type: none;
-  margin: 3vw;
+  margin: 3vw 0px 2vw -3px;
 }
 .sidebar-menu li {
   margin-bottom: 5px;
 }
 .sidebar-menu li a {
-  color: #555555;
+  border-bottom: 1px solid;
 }
-.sidebar-menu li:before {
-  font-family: 'FontAwesome';
-  content: '\f105';
-  margin: 0 5px 0 -15px;
-  color: #999999;
-}
-.sidebar-menu li.active a {
-  color: #ff7473;
-  font-weight: bold;
-}
-.sidebar-menu li.active:before {
-  color: #ff7473;
-}
+
 .sidebar-menu li:hover a {
   text-decoration: none;
-  color: #ff7473;
-}
-.sidebar-menu li:hover:before {
-  color: #ff7473;
 }
 .content-column {
   padding-top: 40px;
@@ -394,7 +377,7 @@ SIDEBAR + RIGHT COLUMN
 }
 .grid {
   padding-top: 5px;
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
 }
 .content-column-content {
   padding-left: 20px;
@@ -691,22 +674,22 @@ MAIN PORTFOLIO SLIDER
 =====================
 
 */
-#main-slider {
+.main-slider {
   margin-bottom: 40px;
   opacity: 0;
 }
-#main-slider ul li div {
+.main-slider ul li div {
   width: 100%;
 }
-#main-slider .owl-wrapper-outer {
+.main-slider .owl-wrapper-outer {
   box-shadow: 0 1px 5px #ccc;
 }
-#main-slider .owl-controls .owl-buttons {
+.main-slider .owl-controls .owl-buttons {
   display: none;
 }
-#main-slider .owl-controls .owl-page.active span,
-#main-slider .owl-controls.clickable .owl-page:hover span {
-  background: #ff7473;
+.main-slider .owl-controls .owl-page.active span,
+.main-slider .owl-controls.clickable .owl-page:hover span {
+  background: black;
 }
 /*
 
@@ -861,7 +844,7 @@ a:active {
   border-bottom: solid 1px transparent;
 }
 .box-masonry h4 a:hover {
-  border-bottom: dotted 1px #ff7473;
+  border-bottom: solid 1px black;
   color: #000;
   text-decoration: none;
 }
@@ -906,7 +889,7 @@ a:active {
   font-size: 50px;
 }
 .box-masonry:hover {
-  box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 20px 0px #cdcdcd;
 }
 .box-masonry:hover .box-masonry-hover-text-header {
   opacity: 1;
@@ -1603,7 +1586,7 @@ body {
   background-color: #f4f4f4;
 }
 a {
-  color: #ff7473;
+  color: #000;
   text-decoration: none;
 }
 a:hover,

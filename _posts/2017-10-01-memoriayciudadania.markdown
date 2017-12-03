@@ -6,12 +6,9 @@ categories: [UI, CSS, HTML, Branding]
 image: myc01.png
 description: This website is the landing for the Memoria y Ciudadanía (Memory and Citizenship) project of the Peruvian organization Japiqay.
 permalink: /:title.html
+external: http://memoriayciudadania.org
+github: camargozzini/memoriayciudadania
 ---
-<p>
-<a href="http://memoriayciudadania.org/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Website | </a>
-<a href="https://github.com/camargozzini/memoriayciudadania" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-</p>
-
 ###  {{ page.description }} The objective of the project is to document all cases of corruption in Peru over the past 30 years so that citizens can keep their memories alive and avoid making the same mistakes.
 
 <h4>Stages of the project for which I was responsible:</h4>
@@ -28,7 +25,7 @@ For this I built a simple landing, with a search engine as a central element acc
 
 At a second level, comes the "Corruption Stories" that are journalistic articles generated from the Memory and Citizenship corruption database. The goal of this section is to inspire the user to use the data to create their stories.
 
-<div id="main-slider">
+<div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/portfolio/myc01.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/portfolio/myc/02.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/portfolio/myc/03.png" class="img-responsive"></div>

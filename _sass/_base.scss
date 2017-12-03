@@ -96,11 +96,21 @@ li {
 }
 
 ul.linea {
-  border-left: 4px solid $red;
-  margin-left: 0px;
-  padding-left: 20px;
-  line-height: 28px;
-  color: #000;
+  margin-left: 24px;
+}
+
+ul.linea li {
+  line-height: 32px;
+  position: relative;
+  &:before {
+    content: '_';
+    content: '_';
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    left: -20px;
+    bottom: 6px;
+  }
 }
 
 

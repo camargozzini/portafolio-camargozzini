@@ -24,7 +24,7 @@ description: Versión para las elecciones presidenciales en Chile el 2013 del pr
   <li>Diseño de material gráfico para la difusión</li>
 </ul>
 
-<div id="main-slider">
+<div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2013/01.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2013/02.png" class="img-responsive"></div>
 </div>

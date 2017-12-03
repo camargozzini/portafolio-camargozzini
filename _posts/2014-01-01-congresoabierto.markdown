@@ -4,7 +4,7 @@ title:  Congreso Abierto
 date:   2014-01-01
 categories: [UX, UI, CSS, HTML]
 image: congreso.png
-description: Plataforma que busca abrir a los ciudadanos lo que pasa dentro del congreso chileno.
+description: Platform that seeks to open to citizens what happens within the Chilean congress.
 permalink: /:title.html
 ---
 <p>

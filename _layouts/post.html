@@ -5,7 +5,7 @@ layout: default
 
 <div id="all">
   <div class="container-fluid">
-    <div class="row row-offcanvas row-offcanvas-left"> 
+    <div class="row row-offcanvas row-offcanvas-left">
       {% include sidebar.html %}
 
       <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
@@ -13,9 +13,12 @@ layout: default
           <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
           <h1 class="small-navbar-heading"> <a href="index.html">Cata Margozzini</a></h1>
         </div>
-
-            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-
+<!-- Post -->
+        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        <p>
+          <a href="{{ page.external }}" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Website | </a>
+          <a href="https://github.com/{{ page.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        </p>
           <div class="post-content" itemprop="articleBody">
             {{ content }}
           </div>

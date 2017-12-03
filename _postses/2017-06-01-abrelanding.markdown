@@ -22,7 +22,7 @@ permalink: /:title.html
   <li>Brand and graphics design</li>
 </ul>
 
-<div id="main-slider">
+<div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/abre/03.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/abre/04.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/abre/05.png" class="img-responsive"></div>

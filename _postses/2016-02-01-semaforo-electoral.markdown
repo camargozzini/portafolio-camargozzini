@@ -23,7 +23,7 @@ permalink: /:title.html
   <li>Diseño de material gráfico para la difusión</li>
 </ul>
 
-<div id="main-slider">
+<div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/semaforo/sem01.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/semaforo/sem02.png" class="img-responsive"></div>
 </div>
