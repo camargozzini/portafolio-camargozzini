@@ -4,7 +4,7 @@ title:  Latinshare
 date:   2015-01-01
 categories: [Branding]
 image: latinshare.png
-description: Rediseño de la marca LatinShare, que es una consultora Latinoamericana Partner de Microsoft, especializada en tecnologías de información.
+description: Redesign of the LatinShare brand, a Latinamerican adviser, partner with Microsoft, that specializes in information technologies.
 permalink: /:title.html
 ---
 
@@ -15,4 +15,3 @@ permalink: /:title.html
 
 <img alt="" src="{{ site.baseurl }}img/content/latinshare/02.png" class="img-responsive">
 <p class="text-right">Pendones</p>
-

@@ -5,7 +5,7 @@ title:  Let's Talk
 date:   2015-01-01
 categories: [Branding]
 image: letstalk.png
-description: Diseño de la marca Let's Talk, que es una aplicación de mensajería instantánea para comunicar empresas con sus clientes.
+description: Design of the Let`s Talk Brand, an instant messaging application to communicate companies with their customers.
 ---
 
 <h3>{{ page.description }}</h3>
