@@ -8,7 +8,7 @@
 # Site settings
 title: Catalina Margozzini
 email: camargozzini@gmail.com
-description: "I am a Chilean UX and digital designer (and coder). My passion to observe behaviors and empathizing with people makes me good at detecting problems and finding solutions."
+description: "I am a Chilean UX and digital designer (and coder). My passion is to observe behaviours and empathize with people. This makes me good at detecting problems and finding digital solutions."
 baseurl: "http://camargozzini.com/" # the subpath of your site, e.g. /blog
 url: "http://camargozzini.com/" # the base hostname & protocol for your site
 twitter_username: camargozzini
