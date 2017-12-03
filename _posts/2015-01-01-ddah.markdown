@@ -19,9 +19,13 @@ github: ciudadanointeligente/ddah-promises
   <li>Diseño de material gráfico para la difusión</li>
 </ul>
 
-<img alt="" src="{{ site.baseurl }}img/content/ddah/01.png" class="img-responsive">
+“Del dicho al hecho” (Easier said than done) it's an annual research that Ciudadano Inteligente makes to supervise the government's program compliance. This research is published using data visualization, making it easier for citizens to control their government promises.
 
-Era requisito para este proyecto ser muy simple de reutilizar para diferentes estudios. Tiene una estructura muy simple de manera que en las diferentes instalaciones lo único que es necesario cambiar es el header y los datos.
+We have exported this idea and methodology to numerous countries in Latin America. That´s why the main challenge was to create a very simple platform, looking forward that people without experience in codes could set it up. The graphics of the site were neutral enough to incorporate an image as header and a logotype that changes according to the installation context.
+
+Under the same idea of simplicity and reproducibility,  I decided to make all charts in D3.js format. In this way, new users only have to put in their data sheets in the platform in order to have their charts automatically unfold.
+
+<img alt="" src="{{ site.baseurl }}img/content/ddah/01.png" class="img-responsive">
 
 <h4>Material gráfico</h4>
 <div class="row">
