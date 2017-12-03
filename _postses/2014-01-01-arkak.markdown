@@ -4,7 +4,7 @@ title:  Arkak Sacha
 date:   2015-06-30
 categories: [UX, UI, CSS, HTML, Javascript, Mapbox]
 image: arkak.png
-description: Platform that seeks to integrate experiences, tools and useful information for the work that the indigenous communities in Bolivia and Ecuador do in terms of social and environmental monitoring of the extractive industry.
+description: Plataforma que busca integrar experiencias, herramientas e información útil para el trabajo que las comunidades indígenas en Bolivia y Ecuador hacen en términos de monitoreo socio ambiental en relación con las industrias extractivas.
 permalink: /:title.html
 ---
 
@@ -21,7 +21,7 @@ permalink: /:title.html
   <li>Implementación del front-end</li>
 </ul>
 
-Este es un proyecto que se desarrolló en Ciudadano Inteligente en conjunto con el Instituto Internacional de Estudios Sociales de la Universidad Erasmus de Rotterdam (ISS/EUR) e HIVOS de Holanda, la Liga de Defensa del Medio Ambiente LIDEMA (Bolivia) y la Universidad San Francisco de Quito USFQ (Ecuador).
+Este es un proyecto que se desarrolló en Ciudadano Inteligente en conjunto con el Instituto Internacional de Estudios Sociales de la Universidad Erasmus de Rotterdam (ISS/EUR) e HIVOS de Holanda, la Liga de Defensa del Medio Ambiente LIDEMA (Bolivia) y la Universidad San Francisco de Quito USFQ (Ecuador). 
 
 A través del proyecto NEBE (Nacionalización de la Extracción en Bolivia y Ecuador) estudian los impactos, conflictos y cooperación que existen en torno a los recursos naturales en Bolivia y Ecuador.
 
@@ -38,3 +38,4 @@ Además agregué una sección de mapeo de los reportes, donde se geolocaliza cad
 Finalmente incorporé una sección de estadísticas generadas a partir de los reportes, pensando en que la mayoría de los usuarios no leerá los reportes sino que quieren una visión más rápida y resumida de lo que esta sucediendo en Bolivia y Ecuador.
 
 <img src="{{ site.baseurl }}img/content/arkak03.png" class="img-responsive">
+

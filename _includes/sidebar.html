@@ -2,16 +2,9 @@
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <h1 class="sidebar-heading"> <a href="index.html">{{ site.title }}</a></h1>
-    <p>Diseñadora de UX y UI</p>
-    <p class="sidebar-p">Creo que el potencial democratizador de información de la tecnología e Internet es enorme, por eso dedico mi trabajo a intenar que la comunicación persona-computador sea lo más fluida posible.</p>
-    <ul class="sidebar-menu"> 
-      <li><a href="index.html">Portafolio</a></li>
-      <li><a href="https://www.linkedin.com/in/catalina-margozzini-del-valle-39a37733?trk=nav_responsive_tab_profile">Curriculum</a></li>
-    </ul>
-    <p class="social"><a href="mailto:camargozzini@gmail.com?Subject=Hola!" target="_top" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a><a href="https://github.com/camargozzini" title="" class="external github"><i class="fa fa-github"></i></a><a href="https://www.instagram.com/camargozzini/" data-animate-hover="pulse" class="external instagram"><i class="fa fa-instagram"></i></a><a href="https://twitter.com/CaMargozzini" data-animate-hover="pulse" class="external twitter"><i class="fa fa-twitter"></i></a></p>
-    <div class="copyright">
-      <p class="credit"><i class="fa fa-creative-commons" aria-hidden="true"></i> Siéntete libre de reusar</p>
-    </div>
+    {% include nav.html %}
+    <p class="sidebar-p">{{ site.description }}</p>
+    <p class="sidebar-p">I am currently working at <a href="https://ciudadanointeligente.org/" target="_blank">Fundación Ciudadano Inteligente</a> and <a href="https://www.theengineroom.org/" target="_blank">The Engine Room</a>. If you have any questions or comments please write me at <a href="mailto:camargozzini@gmail.com?Subject=Hi!" target="_top" data-animate-hover="pulse" class="email">camargozzini@gmail.com</a></p>
+    <!-- <p class="credit"><a href="{{ site.baseurl }}/index.html">EN</a> | <a href="{{ site.baseurl}}/es/index.html">ES</a></p> -->
   </div>
 </div>
-<!--   *** SIDEBAR END ***  -->
