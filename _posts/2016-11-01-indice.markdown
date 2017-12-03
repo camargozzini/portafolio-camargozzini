@@ -1,25 +1,26 @@
 ---
 layout: post
-title:  Index of Legislative Transparency
+title:  Legislative Transparency Index
 date:   2016-01-01
 categories: [UI, CSS, HTML, D3.js]
 image: indice.png
 description: Website that presents the results of the Índice de Transparencia (Transparency Index) of Latin American congresses, made by the Red Latinoamericana por la Transparencia Legislativa (Latin American Network for Legislative Transparency).
+external: http://indice.transparencialegislativa.org/
+github: ciudadanointeligente/indice2016
 permalink: /:title.html
 ---
-<a href="http://indice.transparencialegislativa.org/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio Web</a><a href="https://github.com/ciudadanointeligente/indice2016"><i class="fa fa-github" aria-hidden="true"></i> Código en Github</a>
 
-<h3>{{ page.description }}</h3>
+### {{ page.description }}
 
-It is a website consisting mainly of graphics that present the results in a very simple and visual way. Part of the objective was that the graphics were dynamic since it is a study that is carried out every 2 years, so the idea is that for the next version only the new values are entered and it is ready.
-
-<h4>Stages of the project for which I was responsible:</h4>
+#### Stages of the project for which I was responsible:
 <ul class="list-unstyled linea">
   <li>Wireframes design</li>
   <li>Mockups design</li>
   <li>Site implementation</li>
   <li>Graphic design for diffusion</li>
 </ul>
+
+It is a website consisting mainly of graphics that present the results in a very simple and visual way. Part of the objective was that the graphics were dynamic since it is a study that is carried out every 2 years, so the idea is that for the next version only the new values are entered and it is ready.
 
 <div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/indice/01.png" class="img-responsive"></div>
