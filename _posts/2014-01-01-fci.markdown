@@ -13,11 +13,11 @@ permalink: /:title.html
 
 <h3>{{ page.description }}</h3>
 
-<h4>Etapas del proyecto de las que fui responsable:</h4>
+<h4>Stages of the project for which I was responsible:</h4>
 <ul class="linea list-unstyled">
-  <li>Diseño de Wireframes</li>
-  <li>Diseño de Mockups</li>
-  <li>Implementación del sitio completo</li>
+<li>Wireframes design</li>
+<li>Mockups design</li>
+<li>Site implementation</li>
 </ul>
 
 This is the Ciudadano Inteligente NGO website. The challenge was to create a site that requires minimal maintenance effort (the team is always a bit overwhelmed with projects), to explain what the NGO is doing since what we do is a bit complex for unfamiliar people, and to highlight our projects as the most important.

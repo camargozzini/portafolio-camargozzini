@@ -13,26 +13,26 @@ permalink: /:title.html
 
 <h3>{{ page.description }}</h3>
 
-<h4>Etapas del proyecto de las que fui responsable:</h4>
+<h4>Stages of the project for which I was responsible:</h4>
 <ul class="linea list-unstyled">
-  <li>Diseño de Wireframes</li>
-  <li>Diseño de Mockups</li>
-  <li>Testeos</li>
-  <li>Implementación del Frontend</li>
+<li>Wireframes design</li>
+<li>Mockups design</li>
+<li>Frontend implementation</li>
+<li>Testing</li>
 </ul>
 
-Congreso Abierto es una plataforma de Ciudadano Inteligente que transparenta el trabajo legislativo en Chile: perfil de congresistas, proyectos de ley con las etapas que han pasado y su estado actual, votaciones y canal de comunicación con los parlamentarios.
+Congreso Abierto (Open Congress) is a Ciudadano Inteligente platform that shows the legislative work in Chile: profile of congressmen, bills with the stages that have passed and their current status, voting and channel of communication with the congressmen.
 
-El diseño de este sitio fue un desafío muy interesante ya que el funcionamiento del congreso en general para los ciudadanos es un lugar oscuro y lejano, que no saben que pasa ahí ni sienten que tienen alguna injerencia. Intentamos hacer un sitio lo más visual posible sin que perdiera seriedad ya que era muy importante que fuera confiable como fuente para inestigadores y periodistas.
+The design of this site was a very interesting challenge since the operation of the Congress for the citizens is a dark and distant place, they do not know what happens there or feel they have any interference. We tried to make a site as visual as possible without losing seriousness since it was very important that it was reliable as a source for investigators and journalists.
 
-Esta vista corresponde al buscador de proyectos de ley, el ícono a la izquierda de cada proyecto señala el estado actual del proyecto.
+This view corresponds to the project finder, the icon on the left of each project indicates the current status of the project.
 
 <img src="{{ site.baseurl }}img/content/ca02.png" class="img-responsive">
 
-Luego en la vista del proyecto vemos al comienzo la información más relevante, incluyendo la posibilidad de que sean los mismos visitantes del sitio quienes agregen los tags según los nombres que se conocen informalmente.
+In the project view, we see at the beginning the most relevant information, including the possibility that users are the ones who add the tags to the bills, according to the names that are known informally.
 
 <img src="{{ site.baseurl }}img/content/ca01.png" class="img-responsive">
 
-Esta vista muestra las últimas votaciones en el congreso. Al pasar por encima se puede saber exactamente quien votó de que forma.
+This view shows the last votes in the congress. Hovering above you can know exactly who voted that way.
 
 <img src="{{ site.baseurl }}img/content/ca04.png" class="img-responsive">
