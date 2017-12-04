@@ -20,6 +20,10 @@ permalink: /:title.html
   <li>Implementación del sitio completo</li>
 </ul>
 
+This is the Smart Citizen website. The challenge was to create a site that requires minimal maintenance effort (the team is always a bit overwhelmed with projects), to explain what the NGO is doing since what we do is a bit complex for unfamiliar people, and to highlight our projects as the most important.
+
+It's a Github page, where every project and team member are pages in markdown, so they can be created and edited by any member of the team.
+
 <div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/fci/01.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/fci/02.png" class="img-responsive"></div>
