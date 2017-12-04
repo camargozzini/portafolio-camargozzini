@@ -16,15 +16,15 @@ github: ciudadanointeligente/votainteligente-portal-electoral
 
 <h4>Etapas del proyecto de las que fui responsable:</h4>
 <ul class="linea list-unstyled">
-  <li>Diseño de Wireframes</li>
-  <li>Diseño de Mockups</li>
-  <li>Implementación del Frontend</li>
-  <li>Diseño de material gráfico para la difusión</li>
+  <li>Wireframes design</li>
+  <li>Mockups design</li>
+  <li>Frontend implementation</li>
+  <li>Graphics design for diffusion</li>
 </ul>
 
-The first Smart Vote was created in 2009 for the presidential elections and has maintained its central objective: the informed vote, but this version added a new functionality that proposes a new form of participation for the users, where they propose projects that candidates can commit to performing when chosen.
+The first Smart Vote was created in 2009 for the presidential elections and has maintained its central objective: the informed vote. But this version added a new function that proposes a new form of participation for users: they propose projects or ideas that candidates can commit to doing if they are elected.
 
-Designing the user experience was a great challenge since the site has many (and very different) features. The part of the creation of citizen proposals was especially complex: it had to be the simplest and shortest, avoiding instructions, so as not to frighten away the user.
+Designing the users experience was a great challenge since the site has many (and very different) features. The section of the creation of proposals by citizens was especially complex because it had to be simple and short, avoiding long instructions that could frighten the user away.
 
 <div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2016/01.png" class="img-responsive"></div>

@@ -20,7 +20,7 @@ permalink: /:title.html
   <li>Graphic design for diffusion</li>
 </ul>
 
-It is a website consisting mainly of graphics that present the results in a very simple and visual way. Part of the objective was that the graphics were dynamic since it is a study that is carried out every 2 years, so the idea is that for the next version only the new values are entered and it is ready.
+It is a website of graphics that present the results of transparency in a very simple and visual way. Part of the objective was that the graphics were dynamic since the study is carried out every 2 years. Therefore, when the next version of the study is out, you only have to put the new values in and it is ready.
 
 <div class="main-slider">
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/indice/01.png" class="img-responsive"></div>

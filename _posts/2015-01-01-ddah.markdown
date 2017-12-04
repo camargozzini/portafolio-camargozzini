@@ -4,7 +4,7 @@ title:  Del Dicho al Hecho
 date:   2015-01-01
 categories: [UI, CSS, HTML, D3]
 image: ddah.png
-description: Del Dicho al Hecho es la plataforma que vizualiza el estudio de Ciudadano Inteligente que realiza un análisis detallado de las promesas establecidas por el Gobierno y una revisión del estado de cumplimiento legislativo y administrativo de éstas.
+description: “Del Dicho al Hecho” (Easier said than done) is an annual research that Ciudadano Inteligente makes to supervise the government's program compliance. This research is published using data visualization, making it easier for citizens to control their government promises.
 permalink: /:title.html
 external: http://deldichoalhecho.cl/
 github: ciudadanointeligente/ddah-promises
@@ -19,11 +19,9 @@ github: ciudadanointeligente/ddah-promises
   <li>Diseño de material gráfico para la difusión</li>
 </ul>
 
-“Del dicho al hecho” (Easier said than done) it's an annual research that Ciudadano Inteligente makes to supervise the government's program compliance. This research is published using data visualization, making it easier for citizens to control their government promises.
-
 We have exported this idea and methodology to numerous countries in Latin America. That´s why the main challenge was to create a very simple platform, looking forward that people without experience in codes could set it up. The graphics of the site were neutral enough to incorporate an image as header and a logotype that changes according to the installation context.
 
-Under the same idea of simplicity and reproducibility,  I decided to make all charts in D3.js format. In this way, new users only have to put in their data sheets in the platform in order to have their charts automatically unfold.
+Under the same idea of simplicity and reproducibility,  I decided to make all charts in D3.js format. In this way, new organizations that want to implement the site only have to put in their data sheets in the platform in order to have their charts automatically unfold.
 
 <img alt="" src="{{ site.baseurl }}img/content/ddah/01.png" class="img-responsive">
 
