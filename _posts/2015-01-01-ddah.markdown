@@ -11,12 +11,12 @@ github: ciudadanointeligente/ddah-promises
 ---
 ### {{ page.description }}
 
-<h4>Etapas del proyecto de las que fui responsable:</h4>
-<ul class="list-unstyled linea">
-  <li>Diseño de Wireframes</li>
-  <li>Diseño de Mockups</li>
-  <li>Implementación del Frontend</li>
-  <li>Diseño de material gráfico para la difusión</li>
+<h4>Stages of the project for which I was responsible:</h4>
+<ul class="linea list-unstyled">
+<li>Wireframes design</li>
+<li>Mockups design</li>
+<li>Frontend implementation</li>
+<li>Brand and graphic design</li>
 </ul>
 
 We have exported this idea and methodology to numerous countries in Latin America. That´s why the main challenge was to create a very simple platform, looking forward that people without experience in codes could set it up. The graphics of the site were neutral enough to incorporate an image as header and a logotype that changes according to the installation context.
@@ -25,7 +25,7 @@ Under the same idea of simplicity and reproducibility,  I decided to make all ch
 
 <img alt="" src="{{ site.baseurl }}img/content/ddah/01.png" class="img-responsive">
 
-<h4>Material gráfico</h4>
+<h4>Graphic material:</h4>
 <div class="row">
 <div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/ddah/d01.png" class=""></div>
 <div class="col-md-4"><img alt="" src="{{ site.baseurl }}img/content/ddah/dif02.png" class="img-responsive"></div>
