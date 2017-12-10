@@ -30,3 +30,7 @@ It's a Github page, where every project and team member are pages in markdown, s
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/fci/03.png" class="img-responsive"></div>
   <div class="item"><img alt="" src="{{ site.baseurl }}img/content/fci/04.png" class="img-responsive"></div>
 </div>
+
+The year 2017 we added a very simple blog, the only challenge was that you could do the filter by category, and that each post was a markdown file so that the communications team could keep it up to date on its own. [Here you can review it](https://blog.ciudadanointeligente.org/) (it has some very interesting posts).
+
+![blog]({{ site.baseurl }}img/content/fci/05.png){:class="img-responsive"}

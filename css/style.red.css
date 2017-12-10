@@ -332,11 +332,11 @@ SIDEBAR + RIGHT COLUMN
   }
 }
 .sidebar-heading {
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: 29px;
   margin-bottom: 0;
+  font-weight: lighter;
 }
+
 .sidebar-heading a {
   color: #000;
   text-decoration: none;
@@ -354,10 +354,11 @@ SIDEBAR + RIGHT COLUMN
 }
 .sidebar-menu {
   list-style-type: none;
-  margin: 3vw 0px 2vw -3px;
+  margin: 1vw 0px 2vw -3px;
 }
 .sidebar-menu li {
-  margin-bottom: 5px;
+  font-size: 29px;
+  font-weight: lighter;
 }
 .sidebar-menu li a {
   border-bottom: 1px solid;
