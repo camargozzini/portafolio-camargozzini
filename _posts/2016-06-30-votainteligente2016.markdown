@@ -27,7 +27,7 @@ The first Smart Vote was created in 2009 for the presidential elections and has 
 Designing the users experience was a great challenge since the site has many (and very different) features. The section of the creation of proposals by citizens was especially complex because it had to be simple and short, avoiding long instructions that could frighten the user away.
 
 <div class="main-slider">
-  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2016/01.png" class="img-responsive"></div>
-  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2016/03.png" class="img-responsive"></div>
-  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/vota2016/02.png" class="img-responsive"></div>
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/portfolio/vota01.png" class="img-responsive"></div>
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/portfolio/vota2016/03.png" class="img-responsive"></div>
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/portfolio/vota2016/02.png" class="img-responsive"></div>
 </div>

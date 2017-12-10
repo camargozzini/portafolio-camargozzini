@@ -4,6 +4,9 @@ layout: default
 
     <div id="all">
       <div class="container-fluid">
+        <div class="small-navbar visible-xs">
+            {% include nav.html %}
+        </div>
         <div class="row row-offcanvas row-offcanvas-left">
           {% include sidebar.html %}
           <!--   *** DETAIL ***-->
@@ -11,7 +14,7 @@ layout: default
                 <div class="content-column-content">
                     <h1>Hello! I'm Catalina</h1>
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 hidden-xs">
                       <p><img src="{{ site.baseurl }}/img/me.jpg" alt="This is me" class="image img-responsive"></p>
                       <p><img src="{{ site.baseurl }}/img/benitoycuy.jpg" alt=""></p>
                       <p>I enjoy every day with my incredible son and our three-legged dog Benito.</p>
