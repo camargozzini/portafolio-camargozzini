@@ -6,6 +6,8 @@ categories: [UX, UI, HCD, CSS, HTML]
 image: vota02.png
 permalink: /:title.html
 description: Versión para las elecciones presidenciales en Chile el 2013 del proyecto VotaInteligente de Ciudadano Inteligente. Su objetivo es la participación activa e informada de los ciudadanos en las elecciones.
+lang: es
+ref: vota2013
 ---
 
 <p>

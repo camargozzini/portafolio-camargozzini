@@ -1,30 +1,23 @@
 ---
 layout: default
-lang: en
+lang: es
 ref: about
 ---
+
     <div id="all">
       <div class="container-fluid">
         <div class="small-navbar visible-xs">
             {% include nav.html %}
         </div>
         <div class="row row-offcanvas row-offcanvas-left">
-          {% if page.lang=='en' %}
-            {% include sidebar.html %}
-          {% endif %}
-
-          {% if page.lang=='es' %}
-            {% include sidebar-es.html %}
-          {% endif %}
+          {% include sidebar.html %}
           <!--   *** DETAIL ***-->
           <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
                 <div class="content-column-content">
-                    <h1>Hello! I'm Catalina</h1>
+                    <h1>Hola! soy Catalina</h1>
                   <div class="row">
-                    <div class="col-md-6 hidden-xs">
+                    <div class="col-md-4 hidden-sm">
                       <p><img src="{{ site.baseurl }}/img/me.jpg" alt="This is me" class="image img-responsive"></p>
-                      <p><img src="{{ site.baseurl }}/img/benitoycuy.jpg" alt=""></p>
-                      <p>I enjoy every day with my incredible son and our three-legged dog Benito.</p>
                     </div>
                     <div class="col-md-6">
                       <p>I’m a Chilean UX and UI designer and coder, currently working with the Ciudadano Inteligente NGO (Smart Citizen Foundation) and The Engine Room NGO, creating websites and digital tools for social change.</p>

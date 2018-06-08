@@ -1,5 +1,5 @@
 ---
-layout: home-es
+layout: home
 lang: es
 categories:
     - es
