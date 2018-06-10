@@ -8,6 +8,8 @@ description: This website is the landing for the Memoria y Ciudadanía (Memory a
 permalink: /:title.html
 external: http://memoriayciudadania.org
 github: camargozzini/memoriayciudadania
+lang: en
+ref: memoriayciudadania
 ---
 ###  {{ page.description }} The objective of the project is to document all cases of corruption in Peru over the past 30 years so that citizens can keep their memories alive and avoid making the same mistakes.
 

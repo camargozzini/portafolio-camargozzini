@@ -8,6 +8,8 @@ description: Website that presents the results of the Índice de Transparencia (
 external: http://indice.transparencialegislativa.org/
 github: ciudadanointeligente/indice2016
 permalink: /:title.html
+lang: en
+ref: indice
 ---
 
 ### {{ page.description }}

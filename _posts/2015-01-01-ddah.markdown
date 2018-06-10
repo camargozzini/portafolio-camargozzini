@@ -8,6 +8,8 @@ description: “Del Dicho al Hecho” (Easier said than done) is an annual resea
 permalink: /:title.html
 external: http://deldichoalhecho.cl/
 github: ciudadanointeligente/ddah-promises
+lang: en
+ref: ddah
 ---
 ### {{ page.description }}
 

@@ -8,6 +8,8 @@ description: Abre (Open) is a mixture of digital and methodological tools that b
 permalink: /:title.html
 external: https://abre.penalolen.cl/
 github: ciudadanointeligente/abre
+lang: en
+ref: abre
 ---
 
 <h3>{{ page.description }}</h3>

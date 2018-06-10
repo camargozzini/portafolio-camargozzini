@@ -6,6 +6,8 @@ categories: [UX, UI, CSS, HTML]
 image: congreso.png
 description: Platform that seeks to open to citizens what happens within the Chilean congress.
 permalink: /:title.html
+lang: en
+ref: congresoabierto
 ---
 <p>
 <a href="http://congresoabierto.cl/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio web | </a><a href="https://github.com/ciudadanointeligente/legislative" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Código en Github</a>

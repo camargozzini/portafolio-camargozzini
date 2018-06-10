@@ -4,21 +4,19 @@ layout: default
 
     <div id="all">
       <div class="container-fluid">
-        {% include header.html %}
 
         <div class="small-navbar visible-xs">
             {% include nav.html %}
         </div>
         <div class="row row-offcanvas row-offcanvas-left">
+
           {% if page.lang=='en' %}
-            {% include sidebar.html %}
+            {% include projects.html %}
           {% endif %}
 
           {% if page.lang=='es' %}
-            {% include sidebar-es.html %}
+            {% include proyectos.html %}
           {% endif %}
-
-          {% include projects.html %}
         </div>
       </div>
     </div>

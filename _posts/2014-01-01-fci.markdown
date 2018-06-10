@@ -6,6 +6,8 @@ categories: [UI, CSS, HTML, Jekyll, Javascript]
 image: fci.png
 description: Landing page de la ONG chilena Ciudadano Inteligente, cuya misión es fortalecer la democracia y reducir la desigualdad en América Latina a través del uso innovador de las tecnologías de la información.
 permalink: /:title.html
+lang: es
+ref: fci
 ---
 <p>
 <a href="http://ciudadanointeligente.org/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Sitio web | </a><a href="https://github.com/ciudadanointeligente/ciudadanoi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Código en Github</a>
