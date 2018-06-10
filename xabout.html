@@ -1,0 +1,61 @@
+---
+layout: default
+lang: en
+ref: about
+---
+    <div id="all">
+      <div class="container-fluid">
+        <div class="small-navbar visible-xs">
+            {% include nav.html %}
+        </div>
+        <div class="row row-offcanvas row-offcanvas-left">
+          {% if page.lang=='en' %}
+            {% include sidebar.html %}
+          {% endif %}
+
+          {% if page.lang=='es' %}
+            {% include sidebar-es.html %}
+          {% endif %}
+          <!--   *** DETAIL ***-->
+          <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+                <div class="content-column-content">
+                    <h1>Hello! I'm Catalina</h1>
+                  <div class="row">
+                    <div class="col-md-6 hidden-xs">
+                      <p><img src="{{ site.baseurl }}/img/me.jpg" alt="This is me" class="image img-responsive"></p>
+                      <p><img src="{{ site.baseurl }}/img/benitoycuy.jpg" alt=""></p>
+                      <p>I enjoy every day with my incredible son and our three-legged dog Benito.</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>I’m a Chilean UX and UI designer and coder, currently working with the Ciudadano Inteligente NGO (Smart Citizen Foundation) and The Engine Room NGO, creating websites and digital tools for social change.</p>
+                      <p>I have a strong base as a designer (I studied design at the Universidad Católica de Chile), where I learned that <strong>design is a way of thinking that incorporates different approaches to solve problems within constraints.</strong></p>
+                      <p>Once I graduate, I realized that we are surrounded by computers (almost without realizing it) and the great potential they have to reach people all over the world, make our lives simpler and better, democratize information and opportunities. For this reason, I decided to specialize in digital design.</p>
+                      <p>I'm good <strong>solving problems, empathizing with users, designing user experiences and interfaces, working with agile methodologies, coding in HTML and SASS, learning new programming languages and working with people.</strong> I'm also good at graphic design, but I don't love it as much I love the digital world.</p>
+                      <p class="bg-gray">If you want more details about my education and career, please review my <a href="https://docs.google.com/document/d/166YrnX9F_ULUr9_-GvMJl7DcfYmbKBRcsFugUMrGvzE/edit?usp=sharing" target="_blank">resume.</a></p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"> </script>
+    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/ekko-lightbox.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <!---->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>

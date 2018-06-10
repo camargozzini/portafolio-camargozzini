@@ -1,16 +1,50 @@
-<nav class="navbar navbar-default navbar-fixed-top hidden-md">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="site-title">
-        <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
-      </div>
+<!-- Navigation panel -->
+<nav class="main-nav js-stick">
+    <div class="full-wrapper relative clearfix">
+        <div class="nav-logo-wrap local-scroll">
+            <a href="{{ site.baseurl }}" class="logo">
+                {{ site.title }}
+            </a>
+        </div>
+        <div class="mobile-nav">
+            <i class="fa fa-bars"></i>
+        </div>
+
+        <!-- Main Menu -->
+        <div class="inner-nav desktop-nav">
+            <ul class="clearlist">
+
+                <!-- Item With Sub -->
+                <li>
+                    <a href="{{ site.baseurl }}/about" class="mn-has-sub active">About</a>
+                </li>
+                <!-- End Item With Sub -->
+
+
+                <!-- Languages -->
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+
+                <li>
+                    <a href="{{ page.url }}" class="{{ page.lang }} mn-has-sub">{{ page.lang }}</a>
+
+                    <ul class="mn-sub">
+
+                      {% for page in pages %}
+                      <li>
+                        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                      </li>
+                      {% endfor %}
+
+                    </ul>
+
+                </li>
+                <!-- End Languages -->
+
+            </ul>
+        </div>
+        <!-- End Main Menu -->
+
+
     </div>
-  </div><!-- /.container-fluid -->
 </nav>
+<!-- End Navigation panel -->
