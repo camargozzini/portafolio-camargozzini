@@ -11,9 +11,9 @@ ref: about
                     <div class="row">
 
                         <div class="col-md-8">
-                            <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Portfolio</h1>
+                            <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Catalina Margozzini</h1>
                             <div class="hs-line-4 font-alt">
-                                An eye for detail makes our works excellent
+                                UX / UI designer and front-end developer
                             </div>
                         </div>
 
@@ -44,19 +44,27 @@ ref: about
                     <!-- End Works Filter -->
 
                     <!-- Works Grid -->
-                    <ul class="works-grid work-grid-3 clearfix font-alt hover-white hide-titles masonry" id="work-grid">
+                    <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white" id="work-grid">
                         {% assign posts=site.posts | where:"lang", page.lang %}
                         {% for post in site.posts %}
                         <!-- Work Item (Lightbox) -->
                         <li class="work-item mix photography">
-                            <a href="images/portfolio/full-project-1.jpg" class="work-lightbox-link mfp-image">
+                            <a href="{{ post.url }}" class="">
                                 <div class="work-img">
                                     <img src="{{ site.baseurl }}/img/portfolio/{{ post.image }}" alt="Work" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">{{ post.title }}</h3>
                                     <div class="work-descr">
-                                        Lightbox
+                                        {% if post %}
+                                          {% assign categories = post.categories %}
+                                        {% else %}
+                                          {% assign categories = page.categories %}
+                                        {% endif %}
+                                        {% for category in categories %}
+                                        <span class="label label-default">{{category}}</span>
+                                        {% unless forloop.last %}&nbsp;{% endunless %}
+                                        {% endfor %}
                                     </div>
                                 </div>
                             </a>
