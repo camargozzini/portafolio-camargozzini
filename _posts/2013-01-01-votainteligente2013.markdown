@@ -3,11 +3,12 @@ layout: post
 title:  Vota Inteligente 2013
 date:   2013-06-30
 categories: [UX, UI, HCD, CSS, HTML]
-image: vota02.png
+image: vota2013/01.png
 permalink: /:title.html
 description: This version of the Votainteligente was made for the presidential elections in Chile in 2013. Its objective is the active and informed participation of citizens in the elections.
 lang: en
 ref: vota2013
+published: false
 ---
 
 <p>

@@ -3,13 +3,14 @@ layout: post
 title:  Del Dicho al Hecho
 date:   2015-01-01
 categories: [UI, CSS, HTML, D3]
-image: ddah.png
+image: ddah/01.png
 description: “Del Dicho al Hecho” (Easier said than done) is an annual research that Ciudadano Inteligente makes to supervise the government's program compliance. This research is published using data visualization, making it easier for citizens to control their government promises.
 permalink: /:title.html
 external: http://deldichoalhecho.cl/
 github: ciudadanointeligente/ddah-promises
 lang: en
 ref: ddah
+published: false
 ---
 ### {{ page.description }}
 

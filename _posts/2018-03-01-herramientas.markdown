@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  Abre
-date:   2017-01-01
-categories: [UX, UI, UCD, CSS, HTML, Branding]
-image: abre/01.png
-description: Abre (Open) is a mixture of digital and methodological tools that bring the work of local governments closer to neighbors, enhancing the collective construction of neighborhoods and communities.
+title:  Herramientas de Ciudadano Inteligente
+date:   2018-01-01
+categories: [UX, UI, CSS, HTML]
+image: herramientas/01.png
+description: Este es el sitio de herramientas de Ciudadano Inteligente. El objetivo es mostrar las herramientas digitales y metodologías desarrolladas por la ONG para otras organizaciones latinoamericanas con el fin de fortalecer las democracias de América Latina. Las herramientas ya han sido utilizadas más de 70 veces en diferentes países de la región.
 permalink: /:title.html
-external: https://abre.penalolen.cl/
-github: ciudadanointeligente/abre
-lang: en
-ref: abre
+external: https://herramientas.ciudadanointeligente.org/
+github: ciudadanointeligente/redeployments
+lang: es
+ref: herramientas
 ---
 
 <!-- Work Gallery -->

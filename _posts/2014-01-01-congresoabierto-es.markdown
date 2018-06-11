@@ -3,7 +3,7 @@ layout: post
 title:  Congreso Abierto
 date:   2014-01-01
 categories: [UX, UI, CSS, HTML]
-image: congreso.png
+image: congresoabierto/01.png
 description: Plataforma que busca abrir a los ciudadanos lo que pasa dentro del congreso chileno.
 permalink: /:title.html
 lang: es

@@ -24,6 +24,20 @@ layout: default
                 <h4 class="font-alt black">
                     {{ page.description }}
                 </h4>
+                <p>
+                  {% if page.external == null %}
+                  {% else %}
+                  <a href="https://github.com/{{ page.github }}" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Site</a>
+                  {% endif %}
+                  {% if page.github == null %}
+                  {% else %}
+                    <a href="https://github.com/{{ page.github }}" target="_blank">| <i class="fa fa-github" aria-hidden="true"></i> Code in Github</a>
+                  {% endif %}
+                  {% if page.prototype == null %}
+                  {% else %}
+                    <a href="{{ page.prototype }}" target="_blank">| <i class="fa fa-file-image-o" aria-hidden="true"></i> Prototype</a>
+                  {% endif %}
+                </p>
             </div>
 
         </div>
@@ -34,38 +48,6 @@ layout: default
         </div>
         <!-- End Work Gallery -->
 
-
-        <div class="section-text mb-60 mb-sm-40">
-            <div class="row">
-
-                <div class="col-md-4 mb-sm-50 mb-xs-30">
-
-                    <!-- Project Detail -->
-                    <div class="work-detail">
-                        <h5 class="font-alt mt-0 mb-20">Project Details</h5>
-                        <div class="work-full-detail">
-                          <p>
-                            <strong>Site:</strong>
-                            {% if page.external == null %}
-                            {% else %}
-                            <a href="{{ page.external }}" target="_blank">{{ page.external }}</a>
-                            {% endif %}
-                          </p>
-                            <p>
-                              {% if page.github == null %}
-                              {% else %}
-                                <strong>Code:</strong>
-                                <a href="https://github.com/{{ page.github }}" target="_blank">Github</a>
-                              {% endif %}
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End Project Detail -->
-
-                </div>
-
-            </div>
-        </div>
 
         {{ content }}
 

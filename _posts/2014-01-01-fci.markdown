@@ -3,7 +3,7 @@ layout: post
 title:  Ciudadano Inteligente
 date:   2016-01-01
 categories: [UI, CSS, HTML, Jekyll, Javascript]
-image: fci.png
+image: fci/01.png
 description: Landing page de la ONG chilena Ciudadano Inteligente, cuya misión es fortalecer la democracia y reducir la desigualdad en América Latina a través del uso innovador de las tecnologías de la información.
 permalink: /:title.html
 lang: es

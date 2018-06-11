@@ -3,13 +3,14 @@ layout: post
 title:  Legislative Transparency Index
 date:   2016-01-01
 categories: [UI, CSS, HTML, D3.js]
-image: indice.png
+image: indice/01.png
 description: Website that presents the results of the Índice de Transparencia (Transparency Index) of Latin American congresses, made by the Red Latinoamericana por la Transparencia Legislativa (Latin American Network for Legislative Transparency).
 external: http://indice.transparencialegislativa.org/
 github: ciudadanointeligente/indice2016
 permalink: /:title.html
 lang: en
 ref: indice
+published: false
 ---
 
 ### {{ page.description }}

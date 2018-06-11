@@ -1533,10 +1533,10 @@ a.logo:hover{
 .inner-nav ul > li:first-child > a{
 
 }
-.inner-nav ul li a:hover,
-.inner-nav ul li a.active{
+.inner-nav ul li a:hover {
     color: #000;
     text-decoration: none;
+    border-bottom: 2px solid #00ca63;
 }
 
 
@@ -3375,13 +3375,6 @@ a.logo:hover{
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    line-height: 1.2;
-}
-.work-descr{
-    font-size: 11px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #aaa;
     line-height: 1.2;
 }
 .works-grid.hide-titles .work-item > a{

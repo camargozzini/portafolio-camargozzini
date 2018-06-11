@@ -26,6 +26,7 @@ body {
     font-kerning: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    border: 7px solid $brand-color;
 }
 
 
@@ -53,6 +54,12 @@ h4 {
     font-size: 21px;
 }
 
+a {
+  color: darken($brand-color, 10%);
+  &:hover {
+    color: $brand-color;
+  }
+}
 
 /**
  * Images
@@ -174,6 +181,10 @@ pre {
     background-color: rgba(224, 224, 224, 0.6);
     color: #505050;
     padding: 0;
+}
+
+p.details {
+    font-size: 14px;
 }
 
 // language
