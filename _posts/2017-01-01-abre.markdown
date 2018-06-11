@@ -3,7 +3,7 @@ layout: post
 title:  Abre
 date:   2017-01-01
 categories: [UX, UI, UCD, CSS, HTML, Branding]
-image: abre01.png
+image: abre/01.png
 description: Abre (Open) is a mixture of digital and methodological tools that bring the work of local governments closer to neighbors, enhancing the collective construction of neighborhoods and communities.
 permalink: /:title.html
 external: https://abre.penalolen.cl/
@@ -23,7 +23,7 @@ ref: abre
       <div class="col-md-6 col-sm-6 mb-sm-50 mb-xs-30">
         <h4>Stages of the project for which I was responsible:</h4>
         <ul class="linea list-unstyled">
-          <li>Human Center Design process</li>
+          <li>User Center Design process</li>
           <li>Design of the methodology</li>
           <li>Wireframes design</li>
           <li>Mockups design</li>

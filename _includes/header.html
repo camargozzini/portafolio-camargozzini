@@ -16,6 +16,9 @@
 
                 <!-- Item With Sub -->
                 <li>
+                    <a href="{{ site.baseurl }}" class="mn-has-sub active">Work</a>
+                </li>
+                <li>
                     <a href="{{ site.baseurl }}/about" class="mn-has-sub active">About</a>
                 </li>
                 <!-- End Item With Sub -->
@@ -23,21 +26,12 @@
 
                 <!-- Languages -->
                 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% for page in pages %}
+                  <li>
+                    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                  </li>
+                {% endfor %}
 
-                <li>
-                    <a href="{{ page.url }}" class="{{ page.lang }} mn-has-sub">{{ page.lang }}</a>
-
-                    <ul class="mn-sub">
-
-                      {% for page in pages %}
-                      <li>
-                        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-                      </li>
-                      {% endfor %}
-
-                    </ul>
-
-                </li>
                 <!-- End Languages -->
 
             </ul>
