@@ -12,6 +12,7 @@ ref: index
 
                         <div class="col-md-8">
                             <h1 class="font-alt mb-20 mb-xs-0">Hola, soy Catalina Margozzini, diseñadora UX/UI y desarrolladora front-end</h1>
+                            <h4>Déjame mostrarte algunos proyectos en los que he estado trabajando</h4
                         </div>
                     </div>
 
@@ -29,7 +30,7 @@ ref: index
                                     <img src="{{ site.baseurl }}/img/portfolio/{{ post.image }}" alt="Work" />
                                 </div>
                                 <div class="work-intro">
-                                    <h3 class="work-title">{{ post.title }}</h3>
+                                    <h5 class="work-title">{{ post.title }}</h5>
                                     <div class="work-descr">
                                         {% if post %}
                                           {% assign categories = post.categories %}
@@ -37,8 +38,8 @@ ref: index
                                           {% assign categories = page.categories %}
                                         {% endif %}
                                         {% for category in categories %}
-                                        <span class="label label-default">{{category}}</span>
-                                        {% unless forloop.last %}&nbsp;{% endunless %}
+                                        <span>{{category}}</span>
+                                        {% unless forloop.last %}•&nbsp;{% endunless %}
                                         {% endfor %}
                                     </div>
                                 </div>

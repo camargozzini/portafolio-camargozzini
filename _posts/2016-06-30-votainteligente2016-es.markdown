@@ -2,7 +2,7 @@
 layout: post
 title:  Vota Inteligente 2016
 date:   2016-06-30
-categories: [UX, UI, HCD, CSS, HTML, Javascript]
+categories: [UX, UI, UCD, CSS, HTML, Javascript]
 image: vota2016/01.png
 description: VotaInteligente is a Ciudadano Inteligente platform whose objective is the active and informed participation of citizens in elections.
 permalink: /:title.html
