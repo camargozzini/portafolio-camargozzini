@@ -21,7 +21,7 @@ ref: index
                     <!-- Works Grid -->
                     <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white" id="work-grid">
                         {% assign posts=site.posts | where:"lang", page.lang %}
-                        {% for post in site.posts %}
+                        {% for post in posts %}
                         <!-- Work Item (Lightbox) -->
                         <li class="work-item mix photography">
                             <a href="{{ post.url }}" class="">
@@ -30,7 +30,6 @@ ref: index
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">{{ post.title }}</h3>
-                                    <h3 class="work-title">{{ post.lang }}</h3>
                                     <div class="work-descr">
                                         {% if post %}
                                           {% assign categories = post.categories %}
@@ -38,8 +37,8 @@ ref: index
                                           {% assign categories = page.categories %}
                                         {% endif %}
                                         {% for category in categories %}
-                                        <span class="label label-default">{{category}}</span>
-                                        {% unless forloop.last %}&nbsp;{% endunless %}
+                                        <span class="details">{{category}}</span>
+                                        {% unless forloop.last %}•&nbsp;{% endunless %}
                                         {% endfor %}
                                     </div>
                                 </div>

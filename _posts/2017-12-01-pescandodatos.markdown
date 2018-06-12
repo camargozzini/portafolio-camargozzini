@@ -1,46 +1,44 @@
 ---
 layout: post
-title:  Abre
+title:  Herramientas de Ciudadano Inteligente
 date:   2018-01-01
-categories: [UX, UI, UCD, CSS, HTML, Branding]
-image: abre/01.png
-description: Abre (Open) is a mixture of digital and methodological tools that bring the work of local governments closer to neighbors, enhancing the collective construction of neighborhoods and communities.
+categories: [UX, UI, CSS, HTML]
+image: pescandodatos/01.png
+description: Este es el sitio de herramientas de Ciudadano Inteligente. El objetivo es mostrar las herramientas digitales y metodologías desarrolladas por la ONG para otras organizaciones latinoamericanas con el fin de fortalecer las democracias de América Latina. Las herramientas ya han sido utilizadas más de 70 veces en diferentes países de la región.
 permalink: /:title.html
-external: https://abre.penalolen.cl/
-prototype: https://invis.io/Q3KOM5AD8CA
-github: ciudadanointeligente/abre
+external: https://herramientas.ciudadanointeligente.org/
+github: ciudadanointeligente/redeployments
 lang: en
-ref: abre
+ref: pescandodatos
 ---
+
+<!-- Work Gallery -->
+<div class="work-full-media mb-80 mb-xs-40">
+  <img src="{{ site.baseurl }}img/portfolio/{{ page.ref }}/02.png" alt="" />
+</div>
+<!-- End Work Gallery -->
 
 <div class="section-text mb-60 mb-sm-40">
     <div class="row">
-
-        <div class="col-md-5 mb-sm-50 mb-xs-30">
-
-            <!-- Project Detail -->
-            <div class="work-detail">
-                <h4 class="font-alt mt-0 mb-20">Stages of the project for which I was responsible:</h4>
-                <div class="work-full-detail">
-                  <p>User Center Design process</p>
-                  <p>Design of the methodology</p>
-                  <p>Wireframes design</p>
-                  <p>Mockups design</p>
-                  <p>Frontend implementation</p>
-                  <p>Brand and graphics design</p>
-                </div>
-            </div>
-            <!-- End Project Detail -->
-
-        </div>
-
+      <div class="col-md-6 col-sm-6 mb-sm-50 mb-xs-30">
+        <h4>Stages of the project for which I was responsible:</h4>
+        <ul class="linea list-unstyled">
+          <li>User Center Design process</li>
+          <li>Design of the methodology</li>
+          <li>Wireframes design</li>
+          <li>Mockups design</li>
+          <li>Frontend implementation</li>
+          <li>Brand and graphics design</li>
+        </ul>
+      </div>
     </div>
 </div>
 
+<div class="work-full-media mb-80 mb-xs-40">
+  <img src="{{ site.baseurl }}img/portfolio/{{ page.ref }}/03.png" alt="" />
+</div>
 
 Abre is a project that we started at the beginning of 2017 with Smart Citizen. Within our vision of increasing the involvement of citizens in politics, we realized that local government should have a key role as a minimum governance cell and that it was not being fulfilled in Latin American countries: according to the research, only 6% of Latino citizens trust their local government.
-
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/KAb-0RBCrGM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 As we are not experts in the subject, we first did an exhaustive review of background and references of citizen participation in cities around the world, and we contacted the local government of the Peñalolén commune, which was interested in increasing the participation of its neighbours in their public policies.
 
@@ -48,14 +46,12 @@ Together with them, I guided a process of Human Center Design (IDEO), where we i
 
 For the web platform we made a fork of the Cónsul platform (the same as that of [Decide Madrid](https://decide.madrid.es/)) but we had to modify it a lot to adapt it to the Latin American reality: to include follow-up to the instances of face-to-face participation, in addition to facilitating the participation of neighbors with a lower digital literacy.
 
-<div class="work-full-media mb-80 mb-xs-40">
-<img src="{{ site.baseurl }}img/portfolio/{{ page.ref }}/03.png" alt="" />
-<p class="details">Screenflow</p>
+<div class="main-slider">
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/abre/01.png" class="img-responsive"></div>
+  <div class="item"><img alt="" src="{{ site.baseurl }}img/content/abre/02.png" class="img-responsive"></div>
 </div>
 
 ## The landing
-
-<img src="{{ site.baseurl }}img/portfolio/{{ page.ref }}/02.png" alt="" />
 
 <a href="http://abre.tumunicipio.org/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Website</a>
 
