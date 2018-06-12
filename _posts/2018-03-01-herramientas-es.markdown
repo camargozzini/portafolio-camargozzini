@@ -8,7 +8,7 @@ description: Este es el sitio de herramientas de Ciudadano Inteligente. El objet
 permalink: /:title.html
 external: https://herramientas.ciudadanointeligente.org/
 github: ciudadanointeligente/redeployments
-lang: en
+lang: es
 ref: herramientas
 ---
 

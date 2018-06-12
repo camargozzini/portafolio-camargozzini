@@ -54,9 +54,9 @@ h4 {
 }
 
 a {
-  color: darken($brand-color, 10%);
+  color: $brand-color;
   &:hover {
-    color: $brand-color;
+    color: darken($brand-color, 10%);
   }
 }
 
