@@ -12,12 +12,18 @@
 
     <!-- Page Wrap -->
     <div class="page" id="top">
-
-      {% include header.html %}
+      {% if page.lang=='en' %}
+        {% include header.html %}
+      {% endif %}
+      {% if page.lang=='es' %}
+        {% include header-es.html %}
+      {% endif %}
 
         {{ content }}
 
     </div>
+
+    {% include footer.html %}
 
   </body>
 

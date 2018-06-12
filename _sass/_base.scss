@@ -26,7 +26,6 @@ body {
     font-kerning: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    border: 7px solid $brand-color;
 }
 
 
@@ -187,6 +186,12 @@ p.details {
     font-size: 14px;
 }
 
+strong {
+    font-weight: 400;
+    background: #444444;
+    color: white;
+}
+
 // language
 
 .language li {
@@ -200,4 +205,12 @@ p.details {
       border-right: 1px solid #000;
       padding-left: 0;
     }
+}
+
+// Header
+
+.inner-nav ul li a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid $brand-color;
 }
