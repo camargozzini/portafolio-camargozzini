@@ -215,4 +215,16 @@ strong {
 .work-descr {
     letter-spacing: 1px;
     font-size: 12px;
+    text-align: left;
+}
+
+.work-title {
+  text-align: left;
+  & span {
+    background: #222;
+    color: white;
+    padding: 2px 12px;
+    font-size: 14px;
+    font-weight: normal;
+  }
 }

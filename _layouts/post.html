@@ -27,7 +27,7 @@ layout: default
                 <p>
                   {% if page.external == null %}
                   {% else %}
-                  <a href="https://github.com/{{ page.github }}" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Site</a>
+                  <a href="{{ page.external }}" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Site</a>
                   {% endif %}
                   {% if page.github == null %}
                   {% else %}

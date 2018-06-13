@@ -15,24 +15,24 @@
 
                 <!-- Item With Sub -->
                 <li>
-                    <a href="{{ site.baseurl }}" class="mn-has-sub active">Projects</a>
+                    <a href="{{ site.baseurl }}index-en" class="mn-has-sub active">Projects</a>
                 </li>
                 <li>
                     <a href="{{ site.baseurl }}/about" class="mn-has-sub">About</a>
                 </li>
                 <li>
-                    <a href="{{ site.baseurl }}#footer" class="mn-has-sub">Contact</a>
+                    <a href="{{ site.baseurl }}index-en#footer" class="mn-has-sub">Contact</a>
                 </li>
                 <!-- End Item With Sub -->
 
 
                 <!-- Languages -->
-                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                <!-- {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                 {% for page in pages %}
                   <li>
                     <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
                   </li>
-                {% endfor %}
+                {% endfor %} -->
 
                 <!-- End Languages -->
 

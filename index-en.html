@@ -1,0 +1,56 @@
+---
+layout: default
+lang: en
+ref: index
+---
+
+            <!-- Portfolio Section -->
+            <section class="page-section pb-0">
+                <div class="relative container align-left mb-30">
+
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            <h1 class="font-alt mb-20 mb-xs-0">Hi, I'm Catalina Margozzini, a UX/UI designer and front-end developer</h1>
+                            <h4>Let me tell you about some projects that I have been working on</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="relative">
+
+                    <!-- Works Grid -->
+                    <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white" id="work-grid">
+                        {% assign posts=site.posts | where:"lang", page.lang %}
+                        {% for post in posts %}
+                        <!-- Work Item (Lightbox) -->
+                        <li class="work-item mix photography">
+                            <a href="{{ post.url }}" class="">
+                                <div class="work-img">
+                                    <img src="{{ site.baseurl }}/img/portfolio/{{ post.image }}" alt="Work" />
+                                </div>
+                                <div class="work-intro">
+                                    <h5 class="work-title">{{ post.title }}</h5>
+                                    <div class="work-descr">
+                                        {% if post %}
+                                          {% assign categories = post.categories %}
+                                        {% else %}
+                                          {% assign categories = page.categories %}
+                                        {% endif %}
+                                        {% for category in categories %}
+                                        <span>{{category}}</span>
+                                        {% unless forloop.last %}•&nbsp;{% endunless %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- End Work Item -->
+                        {% endfor %}
+
+                    </ul>
+                    <!-- End Works Grid -->
+
+                </div>
+            </section>
+            <!-- End Portfolio Section -->
