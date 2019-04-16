@@ -1,47 +1,13 @@
-<!-- Navigation panel -->
-<nav class="main-nav js-stick">
-    <div class="container relative clearfix">
-        <div class="nav-logo-wrap local-scroll">
-            <a href="{{ site.baseurl }}" class="logo">
-              Catalina Margozzini
-            </a>
-        </div>
-        <div class="mobile-nav">
-            <i class="fa fa-bars"></i>
-        </div>
-
-        <!-- Main Menu -->
-        <div class="inner-nav desktop-nav">
-            <ul class="clearlist">
-
-                <!-- Item With Sub -->
-                <li>
-                    <a href="{{ site.baseurl }}index" class="mn-has-sub active">Proyectos</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}about-es" class="mn-has-sub">Sobre mi</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}#footer" class="mn-has-sub">Contacto</a>
-                </li>
-                <!-- End Item With Sub -->
-
-
-                <!-- Languages -->
-                <!-- {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-                {% for page in pages %}
-                  <li>
-                    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-                  </li>
-                {% endfor %} -->
-
-                <!-- End Languages -->
-
-            </ul>
-        </div>
-        <!-- End Main Menu -->
-
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Catalina Margozzini</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="{{ site.baseurl }}index">Proyectos</a>
+      <a class="nav-item nav-link" href="{{ site.baseurl }}about-es">Sobre mi</a>
+      <a class="nav-item nav-link" href="{{ site.baseurl }}#footer">Contacto</a>
     </div>
+  </div>
 </nav>
-<!-- End Navigation panel -->
