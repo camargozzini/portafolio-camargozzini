@@ -3377,8 +3377,8 @@ a.logo:hover{
     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -ms-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .work-item:hover .work-img > img{
