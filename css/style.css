@@ -141,18 +141,7 @@
    Typography
    ============================== */
 
-body{
-    color: #111;
-    font-size: 14px;
-    font-family: "Open Sans", arial, sans-serif;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-}
 
-a:hover{
-    color: #888;
-    text-decoration: underline;
-}
 
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 1.3em;
