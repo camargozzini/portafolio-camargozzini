@@ -165,6 +165,9 @@ blockquote {
 
 .details {
     font-size: 14px;
+    & a {
+      border: none;
+    }
 }
 
 // language
