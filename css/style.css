@@ -3735,9 +3735,7 @@ a.logo:hover{
     -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
-.footer a:hover{
-     text-decoration: underline;
-}
+
 .footer-copy{
     margin-bottom: 5px;
     text-transform: uppercase;
