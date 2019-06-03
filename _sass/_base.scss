@@ -207,3 +207,18 @@ blockquote {
 .work-title {
   text-align: left;
 }
+
+// footer
+
+footer {
+  background: blue;
+  text-align: center;
+  & h3 {
+    margin-bottom: 0;
+    color: white;
+    & a {
+      color: white;
+      border-bottom: 2px solid white;
+    }
+  }
+}
