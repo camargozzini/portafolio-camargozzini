@@ -16,6 +16,12 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
+html {
+   // scroll-behavior: smooth;
+
+}
+
 body {
     font-weight: 400;
     background-color: $background-color;
