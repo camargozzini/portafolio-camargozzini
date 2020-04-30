@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Head Section -->
-<section class="small-section bg-gray-lighter">
+<section class="small-section">
     <div class="relative container align-left">
       <div class="row mb-60">
         <div class="col-md-8 offset-md-2">
@@ -20,6 +20,10 @@ layout: default
             {% if page.prototype == null %}
             {% else %}
               <a href="{{ page.prototype }}" target="_blank">| <i class="fa fa-file-image-o" aria-hidden="true"></i> Prototype</a>
+            {% endif %}
+            {% if page.client == null %}
+            {% else %}
+              <i class="far fa-building"></i> Cliente: {{ page.client }}
             {% endif %}
           </p>
         </div>
