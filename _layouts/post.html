@@ -23,7 +23,11 @@ layout: default
             {% endif %}
             {% if page.client == null %}
             {% else %}
-              <i class="far fa-building"></i> Cliente: {{ page.client }}
+              Cliente: {{ page.client }}
+            {% endif %}
+            {% if page.role == null %}
+            {% else %}
+              | Mi rol: {{ page.role }}
             {% endif %}
           </p>
         </div>
