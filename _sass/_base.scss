@@ -56,10 +56,17 @@ h1 {
     font-family: 'Merriweather', serif;
 }
 
-h3 {
-  font-size: 23px;
+h2 {
+  font-size: 28px;
   font-weight: 400;
-  color: blue;
+  // color: blue;
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  // color: blue;
   font-family: 'Merriweather', serif;
 }
 
@@ -82,6 +89,10 @@ a {
     text-decoration: none;
     border-bottom: 2px solid;
   }
+}
+
+.detail {
+  font-size: 14px;
 }
 
 // Margins
@@ -214,6 +225,14 @@ blockquote {
 
 .work-title {
   text-align: left;
+}
+
+.challenge-detail {
+  margin-top: 20px;
+}
+
+.img-mobile {
+  max-width: 320px;
 }
 
 // footer
