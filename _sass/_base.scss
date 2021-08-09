@@ -33,7 +33,7 @@ body {
     font-kerning: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333;
+    color: #666;
     font-size: 18px;
     font-family: "Open Sans", arial, sans-serif;
     line-height: 1.6;
@@ -54,19 +54,20 @@ ul, ol, dl, figure,
 h1 {
     font-weight: 100;
     font-family: 'Merriweather', serif;
+    color: #333;
 }
 
 h2 {
   font-size: 28px;
   font-weight: 400;
-  // color: blue;
+  color: #333;
   font-family: 'Merriweather', serif;
 }
 
 h3 {
   font-size: 18px;
   font-weight: 400;
-  // color: blue;
+  color: #333;
   font-family: 'Merriweather', serif;
 }
 
@@ -95,22 +96,34 @@ a {
   font-size: 14px;
 }
 
+.bg-gray {
+  background-color: azure;
+}
+
 // Margins
 
 .mb-30 {
   margin-bottom: 30px;
 }
 
-.mt-30 {
-  margin-top: 30px;
-}
-
 .mb-60 {
   margin-bottom: 60px;
 }
 
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
 .mt-60 {
   margin-top: 60px;
+}
+
+.mt-80 {
+  margin-top: 80px;
 }
 
 /**
