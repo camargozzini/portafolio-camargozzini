@@ -2135,12 +2135,7 @@ a.logo:hover{
     background-size: auto;
     background-image: url(../images/pattern-bg-2.png);
 }
-.bg-gray{
-    background-color: #f4f4f4;
-}
-.bg-gray-lighter{
-    background-color: #f8f8f8;
-}
+
 .bg-dark,
 .bg-dark-lighter,
 .bg-dark-alfa-30,
