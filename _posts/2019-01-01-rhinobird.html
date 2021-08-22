@@ -1,0 +1,97 @@
+---
+ref: rhinobird
+lang: es
+layout: post
+title:  Interfaz de video interactivo
+date:   2019-01-01
+categories: [UX, UI]
+image: rhinobird-video-interaction/01.png
+description: Diseño de interacción del reproductor de video interactivo de Rhinobird
+client: Rhinobird
+permalink: /:title.html
+published: true
+role: UI
+<!-- external: https://rhinobird.tv/ -->
+---
+
+<div class="container mt-90">
+  <div class="row mb-60">
+    <div class="col-md-8 offset-md-2">
+      <h1 class="text-center">{{ page.title }}</h1>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mt-60 mb-60">
+        <h2>El Desafío</h2>
+        <p>Crear una interfaz de reproductor de video móvil donde los usuarios pudieran entender intuitivamente que si hacian swipe, horizontal y verticalmente, podían descubrir más contenido relacionado.</p>
+      </div>  
+      <div class="col-md-3 offset-md-1 mt-70">
+        <h4>Mi rol</h4>
+        <p class="detail">Investigación Centrada en el Usuario, Interacción, Interfaces, Prototipado, Testeo</p>
+        <h4>Cliente</h4>
+        <p class="detail">{{ page.client }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-60">
+    <div class="col-md-8 offset-md-2">
+      <h2>La Solución</h2>
+      Reproductor de videos con swipe horizontal para encontrar videos de la misma categoría, y horizontal para descubrir nuevas categorías de contenido.
+    </div>  
+  </div>
+  <div class="row mt-60 mb-60">
+    <div class="col-md-3">
+      <img class="img-mobile" src="{{ site.baseurl }}/img/portfolio/rhinobird-video-interaction/05.png" alt="">
+      <p class="detail mt-30">Animación inicial que muestra que hay más videos "atrás".</p>
+    </div>
+    <div class="col-md-3">
+      <img class="img-mobile" src="{{ site.baseurl }}/img/portfolio/rhinobird-video-interaction/06.png" alt="">
+      <p class="detail mt-30">Reproductor que señala la existencia de más contenido a través de barra continua horizontal e indicadores infinitos verticalmente.</p>
+    </div>
+    <div class="col-md-3">
+      <img class="img-mobile" src="{{ site.baseurl }}/img/portfolio/rhinobird-video-interaction/07.png" alt="">
+      <p class="detail mt-30">El gesto swipe horizontal despliega inicialmente la flecha con un vistazo al próximo video.</p>
+    </div>
+    <div class="col-md-3">
+      <img class="img-mobile" src="{{ site.baseurl }}/img/portfolio/rhinobird-video-interaction/08.png" alt="">
+      <p class="detail mt-30">La transición entre videos es líquida, para explicitar el gesto de "destapar" videos.</strong></p>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-60 mb-60">
+        <h2 class="text-center">El Proceso</h2>
+        <div class="text-center">
+          <img class="" src="{{ site.baseurl }}/img/portfolio/rhinobird-proceso.svg" alt="">
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-60">
+      <div class="col-md-8 offset-md-2">
+        <p>Rhinobird es una empresa de tecnología de videos basada en Boston EEUU y Santiago de Chile. Su fin es crear interfaces de videos inteligentes que permitan a los usuarios interactuar con ellas y descubrir más contenido.</p>
+        <p>Para el diseño del reproductor quise agregar pistas que permitieran una navegación por gestos intuitiva y veloz.</p>
+        <p>En la pantalla inicial, antes de presionar play, agregué una pequeña animación donde se ve el primer video tapando al siguiente, imitando un poco el efecto de un mazo de cartas cerrandose. De esta forma el usuario puede intuir que viene un video por detrás. Para apoyar esta idea cambié el diseño del icono play regular por uno que dibuja estos elementos por detrás.</p>
+        <p><img src="../img/portfolio/rhinobird-video-interaction/02.png"></p>
+        <p>Una vez que el video se empieza a reproducir, junto con la barra de progreso, título de video y controles agregué dos barras indicadoras de que son slides. La razón por la que decidí hacer una barra como línea continua y la otra como cuadrados separados es porque el contenido que se descubre horizontalmente es contenido más relacionado que el vertical. Por ejemplo horizontalmente se pueden decubrir más canciones de un grupo musical, y verticalmente se pueden descubrir otros grupos musicales.</p>
+        <p><img src="../img/portfolio/rhinobird-video-interaction/03.png"></p>
+        <p>Luego de 3 segundos desaparece la información del video, junto con el filtro rosado, y solo se mantienen durante 3 segundos más las barras indicadoras de slides, para reforzar su presencia.</p>
+        <p><img src="../img/portfolio/rhinobird-video-interaction/01.png"></p>
+        <p>Para los gestos de swipe horizontal y vertical agregué una transición líquida, de manera que sea más explícito esta sensación de estar "destapando" el siguiente video.</p>
+        <p><img src="../img/portfolio/rhinobird-video-interaction/04.png"></p>
+      </div>  
+  </div>  
+</div> 
