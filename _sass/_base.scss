@@ -66,6 +66,7 @@ h2 {
 
 h3 {
   font-size: 21px;
+  line-height: 40px;
   font-weight: 400;
   color: #333;
   font-family: 'Merriweather', serif;
@@ -84,10 +85,11 @@ h5 {
 }
 
 a {
-  color: #00987e;
-  border-bottom: 2px solid #00987e;
+  color: $primary;
+  border-bottom: 2px solid $primary;
   &:hover {
-    color: #fd5970;
+    color: #2F80ED;
+    ;
     text-decoration: none;
     border-bottom: 2px solid;
   }
@@ -255,6 +257,12 @@ blockquote {
 .img-mobile {
   width: 320px;
   max-width: 100%;
+}
+
+// about
+
+#about p {
+  color: #333;
 }
 
 // footer
