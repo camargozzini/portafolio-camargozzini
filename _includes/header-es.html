@@ -4,32 +4,20 @@
   </div>
 </nav>
 
-<nav role="navigation">
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
-    
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu">
-      <a href="{{ site.baseurl }}index"><li>Proyectos</li></a>
-      <a href="{{ site.baseurl }}about"><li>Sobre mí</li></a>
-      <a href="{{ site.baseurl }}#footer"><li>Contacto</li></a>
-    </ul>
+<div class="menu-section">
+  <div class="menu-toggle">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
   </div>
-</nav>
+  <nav>
+    <ul role="navigation" class="hidden">
+      <li><a href="{{ site.baseurl }}index">Proyectos</a></li>
+      <li><a href="{{ site.baseurl }}about">Sobre mí</a></li>
+      <li><a href="{{ site.baseurl }}#footer">Contacto</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+
